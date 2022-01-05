@@ -15,7 +15,7 @@ body {
 }
 
 .file-list {
-  width: 1100px;
+  width: 1000px;
   height: auto;
   border: 2px solid #000000;
   margin: auto;
@@ -24,24 +24,32 @@ body {
 .file-list-item {
   display: flex;
   padding: 10px 5px;
+  border-top: 2px solid #ccc;
 }
 
 .file-name,
 .time {
-  flex: 2;
+  flex: 1;
 }
 
 .file-icon {
   flex: 0.2;
 }
 .commit-msg {
-  flex: 5;
+  flex: 4;
+  cursor: pointer;
 }
 
 .file-name {
   color: rgb(44, 14, 180);
+  cursor: pointer;
 }
 
-.fa-file-text {
-  color: red;
+.fa-folder {
+  color: rgb(44, 14, 180);
+  cursor: pointer;
+}
+
+.time {
+  text-align: right;
 }

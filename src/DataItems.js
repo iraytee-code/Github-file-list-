@@ -63,7 +63,7 @@ export const dataList = [
     icon: "fa fa-id-card",
     filename: ".eslintignore",
     commitmessage: "Really ignore all node_modules and dist in eslint",
-    time: "4 months",
+    time: "4 months ago",
   },
   {
     id: "10",
@@ -77,6 +77,6 @@ export const dataList = [
     icon: "fa fa-id-card",
     filename: ".flowconfig",
     commitmessage: "Add flow type annotations",
-    time: "a year ago",
+    time: "A year ago",
   },
 ];
